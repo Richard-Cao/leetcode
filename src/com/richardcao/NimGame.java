@@ -6,7 +6,7 @@ package com.richardcao;
 public class NimGame {
 
     public static void main(String[] args) {
-        System.out.printf("" + canWinNim(5));
+        System.out.printf(String.valueOf(canWinNim(5)));
     }
 
     private static boolean canWinNim(int n) {

@@ -6,7 +6,7 @@ package com.richardcao;
 public class AddDigits {
 
     public static void main(String[] args) {
-        System.out.printf("" + addDigits(38));
+        System.out.printf(String.valueOf(addDigits(38)));
     }
 
     private static int addDigits(int num) {
